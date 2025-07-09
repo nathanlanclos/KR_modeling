@@ -1,0 +1,5 @@
+To run Boltz-2, you need to create a new coda environment. I know for a fact that it works with python=3.10. Once the environment is activated, you can just pip install boltz and the code should run out of the box. https://github.com/jwohlwend/boltz
+
+You can configure the environment to work locally or on the cluster. If on the cluster, DO NOT INSTALL BOLTZ IN YOUR HOME DIRECTORY, it will take up a ton of space. Instead, install it to an alternative conda environments folder in your scratch space. I have a notion that can step you through how to do this. 
+
+I wrote some scripts to run bulk jobs from a csv and to process the data boltz generates into nice reports. If you run write_yamls.py --generate_template it will output a template csv to fill out. The csv and bash script I used can be found in this folder. Simply put all the files in the main Boltz-2 directory and run your jobs and it will work as expected. 

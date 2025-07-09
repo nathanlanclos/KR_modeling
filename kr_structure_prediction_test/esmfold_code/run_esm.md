@@ -1,0 +1,1 @@
+To run ESMFold, simply install the environment from the yaml file and run the python file. This works on the cluster as well, an example bash file is provided. 
